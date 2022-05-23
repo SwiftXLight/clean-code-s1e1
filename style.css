@@ -50,11 +50,13 @@
   padding: 0px;
 }
 
-.tasks-list, .subtitle {
+.tasks-list,
+.subtitle {
   list-style: none;
 }
 
-.input,.button{
+.input,
+.button {
   outline: none;
 }
 
@@ -140,7 +142,7 @@
   width: 226px;
 }
 
-.tasks-list >    .input[type="text"] {
+.tasks-list > .input[type="text"] {
   width: 226px;
 }
 
