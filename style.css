@@ -13,11 +13,11 @@
   text-align: right;
 }
 
-.header .header__img {
+.header__img {
   width: 100%;
 }
 
-.header .header__more-inf {
+.header__more-inf {
   font-family: "fantasy", cursive;
 }
 
@@ -165,15 +165,15 @@
 
 /* Edit Task */
 
-.main__tasks .main__tasks-list .main__input[type=text] {
+.main__tasks-list .main__input[type=text] {
   display: none;
 }
 
-.main__tasks .main__tasks-list.main__tasks-list--edit-mode .main__input[type=text] {
+.main__tasks-list--edit-mode .main__input[type=text] {
   display: inline-block;
   width: 224px;
 }
 
-.main__tasks .main__tasks-list.main__tasks-list--edit-mode .main__label {
+.main__tasks-list--edit-mode .main__label {
   display: none;
 }
